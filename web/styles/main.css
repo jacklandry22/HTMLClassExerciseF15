@@ -1,0 +1,37 @@
+*{
+    font-family: Gnuolane, Anna, sans-serif;
+}
+.intro::first-letter {
+    font-size: 200%;
+}
+
+h1 {
+    font-size: 300%;
+    text-indent: 50px;
+    font-style: italic;
+    color: orange;
+    text-shadow: 2px 2px #000000;
+}
+.entrance {
+    text-indent: 145px;
+}
+
+img {
+    float: left;
+}
+
+ul {
+    line-height: 175%;
+}
+a:link {
+    font-weight: bold;
+    color: orange;
+}
+a:hover {
+    font-wieght: bold;
+    color: green;
+}
+footer {
+    font-size: 75%;
+     text-align: center;
+}
