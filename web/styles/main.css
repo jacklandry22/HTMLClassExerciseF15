@@ -1,16 +1,18 @@
 *{
     font-family: Gnuolane, Anna, sans-serif;
+    
+     
 }
 .intro::first-letter {
     font-size: 200%;
 }
 
 h1 {
+    padding: 0;
+    margin: 0;
     font-size: 300%;
     text-indent: 50px;
-    font-style: italic;
-    color: orange;
-    text-shadow: 2px 2px #000000;
+    
 }
 .entrance {
     text-indent: 145px;
@@ -31,18 +33,62 @@ a:hover {
     font-weight: bold;
     color: green;
 }
+header {
+    padding: 0;
+    margin: 0;
+border-bottom-width: 3px;
+border-bottom-style: solid; 
+border-bottom-color: black;
+   
+    background: linear-gradient(45deg, white, orange 75%, black);
+}
 footer {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, black, orange 25%, white);
     font-size: 75%;
      text-align: center;
+     border-top-width: 3px;
+border-top-style: solid; 
+border-top-color: black;
+    
 }
 body {
-    width: 800px;
+    width: 800px; 
     background-color: white;
     border-style: solid;
     border-color: black;
+    -webkit-box-shadow: 0 0 10px 10px black;
+    box-shadow: 0 0 10px 10px black;
+    margin: 0;
+    padding: 0;
 }
+
 .center {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
+    margin: 0 auto;
+  
+}
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.footerP {
+    padding: 0;
+    margin:0;
+    line-height: 5;
+    background: linear-gradient(45deg, black, orange 25%, white);
+    clear: both;
+}
+main {
+    padding: 0;
+    margin: 1em;
+}
+html {
+    background-image: url('../images/bats.gif');
+    background-repeat: repeat;
+    
 }
