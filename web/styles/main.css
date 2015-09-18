@@ -13,6 +13,7 @@ h1 {
     font-size: 300%;
     text-indent: 50px;
     
+    
 }
 .entrance {
     text-indent: 145px;
@@ -24,15 +25,27 @@ h1 {
 
 ul {
     line-height: 175%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 a:link {
     font-weight: bold;
-    color: orange;
+    color: black;
+    text-decoration: none;
 }
-a:hover {
+
+a.top:link {
+    color: white;
+}
+a.side:hover {
     font-weight: bold;
     color: green;
 }
+
+
+
 header {
     padding: 0;
     margin: 0;
@@ -67,16 +80,13 @@ body {
 
 .center {
     margin: 0 auto;
+    margin-bottom: 30px;
   
 }
 h2 {
     padding: 0;
     margin: 0;
 }
-
-
-
-
 .footerP {
     padding: 0;
     margin:0;
@@ -100,9 +110,73 @@ html {
     height: 100%;
 }
 
+#topbar {
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+width: 100%;
+
+    
+}
+.top {
+    display: inline;
+    
+/*    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 30px;*/
+}
 .maincontent {
      float: right;
     width: 600px;
     height: 100%;
+    border-top: 20px;
+}
+
+.side {
+width: 150px;
+margin: 3px;
+overflow: auto;
+border: 1px solid black;
+padding: 2px;
+color: black;
+text-align: justify;
+background: orange;
+text-decoration: none;
+
+}
+a.tlink { 
+display: inline-block;
+background-color:black;
+width: 158px;
+border: 1px solid black;
+text-align: center;
+text-decoration: none;
+color: white;
+font-weight: bold;
+float: left
+}
+a.tlink:hover {
+    background-color: gray;
+    color: black;
+    float: left;
+}
+#home {
+    color: orange;
+}
+a.tlink:active {
+    color: orange;
+}
+#derangedcat {
+    text-decoration: underline;
+    color: orange;
+}
+a.slink:hover {
+    color: green;
+}
+
+#derangedcat:hover {
+    color: green;
 }
 
