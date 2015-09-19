@@ -85,7 +85,7 @@ body {
 }
 h2 {
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
 }
 .footerP {
     padding: 0;
@@ -96,7 +96,7 @@ h2 {
 }
 main {
     padding: 0;
-    margin: 1em;
+    margin: 0;
 }
 html {
     background-image: url('../images/bats.gif');
@@ -110,6 +110,15 @@ html {
     height: 100%;
 }
 
+#righthand {
+    float: right;
+    width: 160px;
+    height: 100%;
+    padding: 15px;
+    padding-right: 0px;
+    border-right: 0px;
+    background-color: #F5DEB3;
+}
 #sidebar a {
     display: block;
 }
@@ -133,7 +142,7 @@ width: 100%;
 }
 .maincontent {
      float: right;
-    width: 600px;
+    width: 400px;
     height: 100%;
     border-top: 20px;
 }
@@ -148,6 +157,8 @@ color: black;
 text-align: justify;
 background: orange;
 text-decoration: none;
+float: left;
+clear: right;
 
 }
 a.tlink { 
@@ -166,9 +177,7 @@ a.tlink:hover {
     color: black;
     float: left;
 }
-#home {
-    color: orange;
-}
+
 a.tlink:active {
     color: orange;
 }
@@ -182,5 +191,36 @@ a.slink:hover {
 
 #derangedcat:hover {
     color: green;
+}
+
+div.relative {
+    position: relative;
+    left:200px;
+    right: 350px;
+    width: 400px;
+    hieght: 200px;
+    
+   
+}
+.middle {
+    position: absolute;
+    width: 350px;
+    border: 3px;
+    margin-left: 175px;
+    margin-top: 30px;
+}
+.catpicture {
+    float: left;
+}
+#descrip {
+    postition: absolute;
+    margin-left: 230px;
+    margin-top: 25px;
+    width:200px;
+}
+#right:hover {
+    color: green;
+}#right {
+    text-decoration: underline;
 }
 
