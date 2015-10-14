@@ -125,6 +125,7 @@ width: 100%;
 }
 .top {
     display: inline;
+    width: 100%;
     
 /*    margin-top: 5px;
     margin-bottom: 5px;
@@ -153,7 +154,7 @@ text-decoration: none;
 a.tlink { 
 display: inline-block;
 background-color:black;
-width: 158px;
+width: 158.1px;
 border: 1px solid black;
 text-align: center;
 text-decoration: none;
